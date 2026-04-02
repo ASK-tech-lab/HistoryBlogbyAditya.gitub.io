@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>History Blog</title>
-<style>
-body{font-family:Arial;background:#f4f4f4;margin:0;}
-h1{background:#8B0000;color:white;text-align:center;padding:12px;margin:0;}
-.post{background:white;padding:10px;margin:10px;border-radius:5px;}
-h2{color:#8B0000;}
-img{width:100%;height:200px;border-radius:5px;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronicles | A History Blog</title>
+    <style>
+        :root { --bg: #fdfcf0; --text: #2c2c2c; --accent: #8b4513; }
+        body { font-family: 'Georgia', serif; background: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        header { text-align: center; border-bottom: 2px double var(--accent); padding-bottom: 20px; margin-bottom: 40px; }
+        h1 { font-variant: small-caps; font-size: 2.5rem; margin: 0; color: var(--accent); }
+        article { max-width: 800px; margin: 0 auto 60px; background: white; padding: 30px; box-shadow: 5px 5px 15px rgba(0,0,0,0.05); border-radius: 4px; }
+        .date { font-style: italic; color: #666; font-size: 0.9rem; }
+        img { width: 100%; height: auto; border-radius: 2px; filter: sepia(20%); margin: 20px 0; border: 1px solid #ddd; }
+        p::first-letter { font-size: 3rem; float: left; margin-right: 8px; line-height: 1; color: var(--accent); }
+        footer { text-align: center; font-size: 0.8rem; border-top: 1px solid #ccc; padding-top: 20px; }
+    </style>
 </head>
 <body>
 
-<h1>History Blog</h1>
+<header>
+    <h1>The Silk Road Chronicles</h1>
+    <p>Unearthing the stories of the past</p>
+</header>
 
-<div class="post">
-<h2>The Great Maratha Empire</h2>
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Shivaji_British_Museum.jpg">
-<p>The Maratha Empire was founded by Chhatrapati Shivaji Maharaj and became a powerful force in India.</p>
-</div>
+<article>
+    <span class="date">October 14, 1066</span>
+    <h2>The Battle that Changed England</h2>
+    <!-- GitHub Pages Tip: Place images in a folder named /images/ and link them like this: -->
+    <img src="https://unsplash.com" alt="Ancient Ruins">
+    <p>History is not just a collection of dates, but a tapestry of human ambition and struggle. On this day, the landscape of Western Europe shifted forever as the Normans landed on the shores of Hastings...</p>
+</article>
 
-<div class="post">
-<h2>Indian Independence Movement</h2>
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Gandhi_Salt_March.jpg">
-<p>The Indian Independence Movement led to freedom from British rule in 1947 under leaders like Mahatma Gandhi.</p>
-</div>
-
-<div class="post">
-<h2>World War II</h2>
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Nagasaki_bomb.jpg">
-<p>World War II (1939–1945) was a global conflict that changed world history.</p>
-</div>
+<footer>
+    <p>&copy; 2024 My History Blog. Hosted via GitHub Pages.</p>
+</footer>
 
 </body>
 </html>
